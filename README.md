@@ -6,7 +6,7 @@ A TM bundle for showing current file's line ending and line ending
 To intall this bundle
 
 ```bash
-cd ~/Library/Application Support/Avian/Bundles
+cd ~/Library/Application\ Support/Avian/Bundles
 git clone https://github.com/sleetdrop/FileInfo.tmbundle.git
 ```
 
