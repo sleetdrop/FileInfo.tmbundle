@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require "rubygems"
+require "UniversalDetector"
+
+File.open(ENV['TM_FILEPATH'], 'r') do |f|
+	if f.read().include? "\r\n"	
+		puts "Line ending is DOS"
+	else
+		puts "Line ending is UNIX"
+	end
+end
+
+
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>File Ending</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>uuid</key>
+	<string>921571B1-1846-4309-925F-FE483A778F3F</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

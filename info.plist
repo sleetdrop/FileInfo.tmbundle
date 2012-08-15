@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>fyrrgqebc@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Yuan Jiang</string>
+	<key>description</key>
+	<string>Bundle for show current file line ending and encoding</string>
+	<key>name</key>
+	<string>FileInfo</string>
+	<key>uuid</key>
+	<string>318D1247-5E3D-4A6A-B6A1-78F60CEBECAF</string>
+</dict>
+</plist>

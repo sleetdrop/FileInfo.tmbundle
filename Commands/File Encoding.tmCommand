@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require "rubygems"
+require "UniversalDetector"
+
+File.open(ENV['TM_FILEPATH'], 'r') do |f|
+  puts "Encoding is " + UniversalDetector::chardet(f.read())['encoding']
+end</string>
+	<key>input</key>
+	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>File Encoding</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>toolTip</string>
+	<key>uuid</key>
+	<string>E30A6534-A98E-480B-9A4C-F0F790C95914</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
