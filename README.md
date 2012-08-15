@@ -12,6 +12,6 @@ git clone https://github.com/sleetdrop/FileInfo.tmbundle.git
 
 The ending detecting depends on ruby gem chardet, you should install it to use this bundle.
 ```bash
-	sudo gem install chardet
+sudo gem install chardet
 ```
 	
