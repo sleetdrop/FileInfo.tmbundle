@@ -7,7 +7,6 @@
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
 require "rubygems"
-require "UniversalDetector"
 
 File.open(ENV['TM_FILEPATH'], 'r') do |f|
 	if f.read().include? "\r\n"	
